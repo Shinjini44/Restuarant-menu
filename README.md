@@ -28,6 +28,7 @@ Foodie/
 │ ├── chikpea.jpg
 │ └── paneer.jpg
 ├── README.md 
+|──Screenshot.png
 
 
 ---
@@ -44,7 +45,8 @@ Foodie/
 --------------------------------------------------------------------
 Site is live at: https://shinjini44.github.io/Restuarant-menu/
 --------------------------------------------------------------------
-
+The screenshot of the output screen can be viewed at Screenshot.png
+--------------------------------------------------------------------
 
 ✏️ Customization Tips
 Add more cards for new menu items
