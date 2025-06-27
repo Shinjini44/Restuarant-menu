@@ -41,7 +41,8 @@ Foodie/
 | Flexbox  | Layout for navbar and cards        |
 | Media Queries | Mobile responsiveness         |
 
----
+--------------------------------------------------------------------
+Site is live at: https://shinjini44.github.io/Restuarant-menu/
 
 
 ✏️ Customization Tips
