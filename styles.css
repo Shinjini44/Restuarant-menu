@@ -1,0 +1,158 @@
+header{
+    background-color: rgb(15, 8, 39);
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo{
+    font-family:cursive;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.logo img{
+    height: 53px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content:space-between;
+}
+li{
+    margin: 10px;
+    padding: 5px;
+}
+li a{
+   text-decoration: none;
+   color: white;
+    font-size: 1.5rem;
+}
+li a:hover{
+   color: rgb(191, 220, 242);
+   font-size: 1.5rem;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.card{
+    margin: 15px;
+    padding: 30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow:0 2px 10px 5px rgba(0,0,0,0.3);
+}
+.card:hover{
+    margin: 20px;
+    width: 100%;
+    max-width: 480px;
+    
+}
+
+h3{
+    margin-top: -13px;
+}
+button{
+    cursor: pointer;
+    margin: 4px;
+    padding: 6px;
+    border-radius: 20px;
+    max-width: 480px;
+    width: 100%;
+}
+.Cart{
+    background-color: rgb(233, 195, 9);
+    border-color: rgb(233, 195, 9);
+    box-shadow: none;
+}
+.Cart:hover{
+    background-color: rgb(201, 171, 20);
+    border-color: rgb(201, 171, 20);
+    box-shadow: none;
+}
+.Order{
+    background-color: rgb(23, 23, 75);
+    color: white;
+}
+.Order:hover{
+    background-color: rgb(12, 12, 38);
+    color: rgb(198, 200, 209);
+}
+ /* ---------- Responsive Design for Tablets and Mobiles ---------- */
+@media (max-width: 768px) {
+  
+  /* Stack navbar vertically or center it */
+  header {
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    margin-left: 3px;
+    font-size: 1.1rem;
+  }
+  .logo img{
+    height: 10px;
+    
+  }
+
+  ul {
+    flex-direction: row;
+    
+  }
+
+  li {
+    margin: 7px;
+    margin: 0.5px;
+    padding: 2px;
+    font-size: 2px;
+  }
+ li a{
+    font-size: 17px;
+ }
+
+  /* Stack cards vertically */
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.3rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+}
